@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.GeneralContainer {
+  background-color: #FFF;
+  padding: 50px 120px;
+}
+
+.narv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.L-narv {
+  color: #9B9A78;
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.L-narv span {
+  color: #313131;
+}
+
+.M-narv {
+  display: flex;
+  align-items: center;
+  gap: 45px;
+}
+
+.M-narv a {
+  color: #313131;
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.home {
+  color: #9B9A78;
+  opacity: 0.6;
+}
+
+.M-narv img {
+  margin-left: -28px;
+}
+
+.R-narv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+}
+
+.R-narv a {
+  margin-right: -35px;
+  color: #9B9A78;
+  font-size: 18px;
+  line-height: 40px;
+}
+
+.R-narv button {
+  width: 149px;
+  height: 60px;
+  padding: 18px;
+  color: #FFF;
+  background-color: #9B9A78;
+}
+
+.midContent {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.midRight-content {
+  margin-left: -180px;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(8px);
+  width: 816px;
+  /* height: 419px; */
+}
+
+.titlecontent {
+  display: flex;
+  align-items: baseline;
+}
+
+.descriptTitle {
+  color: #313131;
+  font-size: 56px;
+  font-weight: 700;
+}
+
+.titlecontent img {
+  padding-left: 40px;
+  padding-bottom: 10px;
+}
+
+.descriptSubTitle {
+  padding-top: 40px;
+  color: #909090;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 40px;
+}
+
+.midvectors {
+  padding-left: 60px;
+  display: flex;
+  gap: 520px
+}
+
+.L-fills {
+  display: flex;
+  justify-content: center;
+  gap: 165px;
+}
+
+.L-fil1l {
+  margin-top: -40px;
+  display: flex;
+}
+
+.sqrbox1,
+.sqrbox2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #EFEDEA;
+  width: 80px;
+  height: 80px;
+  padding: 8px;
+}
+
+.sqrbox2 {
+  background-color: #9B9A78;
+}
+
+.L-fill2 {
+  display: inline-flex;
+  justify-content: center;
+  padding-top: 15px;
+  gap: 20px
+}
+
+.dash {
+  margin-top: -32px;
+}
+
+.R-fills {
+  display: grid;
+  grid-template-columns: 200px 200px;
+}
+
+.facility,
+.facility3,
+.facility4 {
+  margin-top: -75px;
+  padding: 30px 0;
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+  gap: 10px;
+  z-index: 3;
+}
+
+.facility3,
+.facility4 {
+  padding-top: 73px;
+}
+
+.facility p {
+  color: #313131;
+  font-size: 18px;
+}
