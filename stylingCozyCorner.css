@@ -5,8 +5,9 @@
 }
 
 .GeneralContainer {
+  height: 100vh;
   background-color: #FFF;
-  padding: 50px 120px;
+  padding: 30px 150px;
 }
 
 .narv {
@@ -70,9 +71,11 @@
 }
 
 .midContent {
-  margin-top: 50px;
+  margin-top: 40px;
   display: flex;
   align-items: center;
+  width: 512px;
+  height: 240px;
 }
 
 .midRight-content {
@@ -179,4 +182,133 @@
 .facility p {
   color: #313131;
   font-size: 18px;
+}
+
+.lower-content {
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 410px
+}
+
+.lowerLeft img,
+.lowermiddle img,
+.lowerRight img {
+  width: 50px;
+  height: 50px;
+}
+
+.lowerLeft div,
+.lowermiddle div,
+.lowerRight div {
+  padding: 5px 0;
+  color: #313131;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.lowerLeft p,
+.lowermiddle p,
+.lowerRight p {
+  color: #909090;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+/* Responsiveness */
+
+@media screen and (max-width: 1300px) {
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .GeneralContainer {
+    min-width: 700px;
+    margin: 0 35px;
+    margin-left: 30px;
+  }
+
+  .narv {
+    justify-content: space-between;
+    max-width: 800px;
+    min-height: 250px;
+  }
+
+
+  .midContent {
+    padding-left: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .midRight-content {
+    margin-left: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .descriptSubTitle {
+    padding-left: 30px;
+  }
+
+  .midvectors {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    margin-top: 800px;
+    gap: 50px;
+    width: 100%;
+  }
+
+
+  .facility,
+  .facility3,
+  .facility4 {
+    font-size: 22px;
+    line-height: 24px;
+    gap: 80px;
+  }
+
+  .facility img,
+  .facility3 img,
+  .facility4 img {
+    margin-right: -60px;
+  }
+
+  .facility p,
+  .facility3 p,
+  .facility4 p {
+    padding-left: -30px;
+  }
+
+  .R-fills {
+    display: grid;
+    grid-template-columns: 280px 280px;
+    gap: 40px;
+  }
+
+  hr {
+    padding: 21px 0;
+    width: 800px;
+    height: 2px;
+    color: #313131;
+  }
+
+  .lower-content {
+    min-height: 700px;
+    gap: 50px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .midLeft-content img {
+    width: 650px;
+    height: 600px;
+  }
 }
